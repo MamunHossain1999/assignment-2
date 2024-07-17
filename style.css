@@ -9,3 +9,80 @@
 body{
     font-family: "Inter", sans-serif;
 }
+
+/* footer style start here */
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #3b3939;
+    ;
+}
+.footer1{
+    max-width: 1059px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-fitnes{
+    width: 480px;
+    margin-right: 160px;
+}
+.footer-fitnes .fitnes{
+   
+    color: rgb(230, 83, 60);
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 120%;
+}
+ .footer-desc{
+    width: 443px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+   
+    
+}
+.footer-getall{
+    display: flex; 
+}
+
+.footer-get{
+    width: 200px;
+    height: 200px;
+    margin-right: 80px;
+}
+.footer-get:nth-child(2){
+    margin-right: 0;
+}
+.get-start{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.get-start p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 50px;
+    
+}
+
+hr{
+    max-width: 1059px;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.span{
+    max-width: 1059px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding: 30px;
+
+}
