@@ -1,11 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 @media screen and (max-width: 576px){
+    /* header section style here */
+    .header{
+        width: 100%; 
+    }
+    .burger{
+        display: block; 
+    }
+    .nav-links{
+        display: none;
+    }
+    .get-all-img{
+        width: 100%;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    .left-get{
+        width: 100%;
+    }
+    .btn-primary{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        
+    }
+    .btn1, .btn2{
+        font-size: 0.9rem; 
+    }
+    .right-img{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .right-img{
+        position: relative;
+    }
+    .btn4{
+        position: absolute;
+        right: -40px;
+        top: 140px
+    }
+    .bitto{
+        position: absolute;
+        left: 0;
+        bottom: 70px;
+    }
+    .btn4{
+        width: 150px;
+    }
+    .bitto{
+        width: 170px;
+    }
 
+    /* card desgin responsiv */
+    .all-card{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .card-title{
+        width: 100%;
+        font-size: 2rem;
+        margin-top: -30px;
+    }
+   .card img{
+    margin-top: 20px;
+   }
+    
     /* img section responsive */
     .meet-section{
         max-width: 100%;
-        
+        margin: 0 auto;
         
     }
     .meet1{
@@ -17,24 +87,55 @@
     .img-section{
         display: flex;
         flex-direction: column;
-        width: 90%;
-        margin: 0 auto; 
+        width: 100%;
         text-align: center;
     }
+    .img img{
+        position: relative;
+        border: 15px solid grey;
+        border-radius: 12px;
+        
+    }
+    .img-title{
+        position: relative;
+        font-size: 1.5rem;
+        color: white;
+        margin-left: -110px;
+        margin-bottom: -10px;
+    }
+    .trainer{
+        position: relative;
+        margin-left: -180px;
+        font-size: 1.5rem;
+       
+    }
+
 
     /* footer section responsive */
-    .footer1,
-    .footer-getall{
-        width: 90%;
+    .footer1{
+        width: 100%;
         flex-direction: column;
-       justify-content: center;
+        margin-left: 30px;
+    }
+    .footer-fitness{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .footer-getall{
+        width: 100%;
+       
+        flex-direction: column;
+      
         padding: 10px;
     }
-     .footer-desc{
-        width: 80%;
-        margin:0 ;
-        padding-right:50px;
+    .footer-getall{
+        flex-direction: column;
     }
+     .footer-desc p{
+       width: 90%;
+       
+    }
+
     hr{
         text-align: center;
         width: 90%;
