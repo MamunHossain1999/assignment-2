@@ -18,6 +18,10 @@
     .title{
         font-size: 3rem;
     }
+    .span1{
+        font-weight: 400;
+        font-size: 5rem;
+    }
     .left-get{
         width: 100%;
     }
@@ -72,6 +76,46 @@
     margin-top: 20px;
    }
     
+
+   /* description section responsive start here */
+   .description{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin-top: 40px;
+        padding: 20px;
+    
+    }
+    .card1{
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+    .head{
+        max-width: 340px;
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .pera{
+        padding-top: 20px;
+        text-align: justify;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    .btn{
+        width: 100%;
+        text-align: center;
+    }
+    .card2{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+    }
+   
+
     /* img section responsive */
     .meet-section{
         max-width: 100%;
