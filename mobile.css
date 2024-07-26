@@ -33,9 +33,10 @@
         justify-content: center;
         
     }
-    .btn1, .btn2{
-        width: 250px;
-        font-size: 0.9rem; 
+    .btn1, .btn24{
+        width: 280px;
+        margin: 0 auto;
+        font-size: 0.7rem; 
     }
     .right-img{
         width: 100%;
@@ -85,11 +86,11 @@
         width: 100%;
         height: auto;
         margin-top: 40px;
-        padding: 20px;
+        padding: 20px 10px 20px 10px;
     
     }
     .card1{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     
     }
@@ -111,23 +112,24 @@
         text-align: center;
     }
     .card2{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         margin-top: 40px;
-        text-align: center;
+        justify-content: center;
     }
    
     /* training section style start here */
     .traning-section{
         width: 100%;
-        margin: 0 auto;
+        margin: 10px auto;
+        margin-left: 20px;
     }
     .img-section{
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
     .div1{
-        width: 100%;
+        width: 80%;
         justify-content: center;
         flex-direction: column;
         display: grid;
@@ -168,14 +170,18 @@
     /* start table and input form section */
     .table-header-title{
         width: 100%;
+        justify-content: center;
+        
     }
     .bmi{
         width: 90%;
+        margin: 0 auto;
         font-size: 2.7rem;
         margin-left: 30px;
     }
     .we{
-        width: 90%;
+        width: 80%;
+        margin: 0 auto;
         margin-left: 30px;
         margin-top: 20px;
     }
@@ -186,14 +192,16 @@
     }
     .left-side{
         width: 100%;
+        margin: 0 auto;
         margin-left: 20px;
     }
     .right-side{
         width: 100%;
+        margin: 0 auto;
         margin-top: 30px;
     }
     .input1 input{
-        width: 150px;
+        width: 140px;
         padding: 10px 12px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
@@ -201,7 +209,7 @@
         margin-right: 10px;
     } 
     .input2 input{
-        width: 150px;
+        width: 140px;
         padding: 10px 12px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
@@ -210,17 +218,13 @@
         margin-right: 10px;
     } 
     .input3 input{
-        width: 315px;
+        width: 295px;
         padding: 10px 12px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
         border-style: none;
         margin-top: 10px;
     } 
-    .btn-primary{
-        width: 80%;
-        margin-left: -30px;
-    }
     /* img section responsive */
     .meet-section{
         width: 100%;
@@ -259,7 +263,24 @@
        
     }
 
-
+    /* img-section style start here */
+    .img-section{
+        margin-bottom: 100px;
+    }
+    .section{
+        margin-right: -100px;
+    }
+    img-section{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 6fr);
+    }
+    .title1{
+        text-align: center;
+    }
     /* footer section responsive */
     .footer1{
         width: 100%;
