@@ -27,12 +27,14 @@
     }
     .btn-primary{
         width: 100%;
+        margin: 0 auto;
         display: flex;
         gap: 10px;
         justify-content: center;
         
     }
     .btn1, .btn2{
+        width: 250px;
         font-size: 0.9rem; 
     }
     .right-img{
@@ -63,7 +65,7 @@
 
     /* card desgin responsiv */
     .all-card{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         flex-direction: column;
     }
@@ -80,7 +82,7 @@
    /* description section responsive start here */
    .description{
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         height: auto;
         margin-top: 40px;
         padding: 20px;
@@ -117,7 +119,7 @@
    
     /* training section style start here */
     .traning-section{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
     .img-section{
@@ -162,9 +164,66 @@
     .img6, h5{
         display: none;
     }
+
+    /* start table and input form section */
+    .table-header-title{
+        width: 100%;
+    }
+    .bmi{
+        width: 90%;
+        font-size: 2.7rem;
+        margin-left: 30px;
+    }
+    .we{
+        width: 90%;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .table-section1{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .left-side{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .right-side{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .input1 input{
+        width: 150px;
+        padding: 10px 12px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        border-style: none;
+        margin-right: 10px;
+    } 
+    .input2 input{
+        width: 150px;
+        padding: 10px 12px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        border-style: none;
+        margin-top: 10px;
+        margin-right: 10px;
+    } 
+    .input3 input{
+        width: 315px;
+        padding: 10px 12px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        border-style: none;
+        margin-top: 10px;
+    } 
+    .btn-primary{
+        width: 80%;
+        margin-left: -30px;
+    }
     /* img section responsive */
     .meet-section{
-        max-width: 100%;
+        width: 100%;
         margin: 0 auto;
         
     }
