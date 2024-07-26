@@ -708,7 +708,7 @@ img-section{
     margin-right: 60px;
 }
 .footer-get:nth-child(2){
-    margin-right: -60px;
+    margin-right: 0px;
 }
 .get-start{
     color: rgb(255, 255, 255);
