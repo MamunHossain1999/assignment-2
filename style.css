@@ -290,7 +290,7 @@ button:hover{
     background: rgb(34, 34, 34);          
 }  
 .card1{
-    width: 60%;
+    max-width: 60%;
     margin-left: 40px;
     margin-top: 20px;
     
@@ -325,18 +325,15 @@ button:hover{
     color: white;
 }
 .card2{
-    max-width: 366px;
-    height: 400px;
-    margin: 0 auto; 
-    margin-top: 25px;
+    max-width: 20%;
+    margin-left: 180px; 
+    margin-top: 45px;
 }
 .image{
-    width: 300px;
-    height: 350px;
+    max-width: 250px;
+    height: 300px;
     border-radius: 20px;
-
 }
- 
 
 /* traning section style start here */
    .traning-section{
