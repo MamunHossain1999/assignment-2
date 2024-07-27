@@ -2,6 +2,11 @@
 
 @media screen and (max-width: 576px){
     /* header section style here */
+    *{
+        margin: 0 ;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .header{
         width: 100%; 
         margin: 0 auto;
@@ -126,6 +131,7 @@
     } 
     .image{
         width: 300px;
+        justify-content: center;
         margin-top: 30px;
     }  
         
