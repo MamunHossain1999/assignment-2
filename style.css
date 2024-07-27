@@ -622,7 +622,7 @@ button:hover{
         font-size: 1.1rem;
         font-weight: 600;
         line-height: 22px;
-    } */
+    } 
 
 
 /* meet section sytle start here */
@@ -635,7 +635,7 @@ button:hover{
     padding-top:20px
 }
 .img-header{
-    width: 365px;
+    max-width: 365px;
     margin: 0 auto;
     color: rgb(255, 255, 255);
     font-size: 3rem;
