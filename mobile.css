@@ -123,9 +123,11 @@
         width: 100%;
         margin: 0 auto;
         margin-top: 40px;
-        justify-content: center;
     }
-    
+    .card2 .image{
+        max-width: 100%;
+        height: 300px;
+    }
     /* training section style start here */
     .traning-section{
         width: 100%;
