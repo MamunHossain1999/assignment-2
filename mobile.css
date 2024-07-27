@@ -4,6 +4,7 @@
     /* header section style here */
     .header{
         width: 100%; 
+        margin: 0 auto;
     }
     .burger{
         display: block; 
@@ -13,6 +14,7 @@
     }
     .get-all-img{
         width: 100%;
+        margin: 0 auto;
         flex-direction: column;
     }
     .title{
@@ -27,27 +29,30 @@
     }
     .btn-primary{
         width: 100%;
+        padding-top: 20px;
         margin: 0 auto;
         display: flex;
-        gap: 10px;
-        justify-content: center;
-        
+        gap: 10px; 
     }
-    .btn1, .btn24{
-        width: 280px;
+    .btn1 {
+        width: 250px;
         margin: 0 auto;
         font-size: 0.7rem; 
+    }
+    .btn2{
+        width: 250px;
+        margin: 0 auto;
+        font-size: 0.7rem;
     }
     .right-img{
         width: 100%;
         margin: 0 auto;
-        justify-content: center;
         margin-top: 30px;
     }
     .right-img{
         position: relative;
     }
-    .btn4{
+    .btn3{
         position: absolute;
         right: -40px;
         top: 140px
@@ -57,7 +62,7 @@
         left: 0;
         bottom: 70px;
     }
-    .btn4{
+    .btn3{
         width: 150px;
     }
     .bitto{
@@ -69,11 +74,14 @@
         width: 100%;
         margin: 0 auto;
         flex-direction: column;
+        text-align: center;
     }
     .card-title{
-        width: 100%;
-        font-size: 2rem;
-        margin-top: -30px;
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.6rem;
+        
     }
    .card img{
     margin-top: 20px;
@@ -81,10 +89,10 @@
     
 
    /* description section responsive start here */
-   .description{
+    .description{
         flex-direction: column;
         width: 100%;
-        height: auto;
+        height: 820px;
         margin-top: 40px;
         padding: 20px 10px 20px 10px;
     
@@ -117,19 +125,20 @@
         margin-top: 40px;
         justify-content: center;
     }
-   
+    
     /* training section style start here */
     .traning-section{
         width: 100%;
         margin: 10px auto;
-        margin-left: 20px;
+        
     }
     .img-section{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
     .div1{
-        width: 80%;
+        width: 100%;
+        margin: 0 auto;
         justify-content: center;
         flex-direction: column;
         display: grid;
@@ -155,11 +164,11 @@
         grid-template-columns: auto auto
     }
     .img4{
-        width: 200px;
+        width: 230px;
         height: 150px;
     }
     .img5{
-        width: 230px;
+        width: 200px;
         height: 150px;
         margin-left: -100px;
     }
@@ -169,39 +178,53 @@
 
     /* start table and input form section */
     .table-header-title{
-        width: 100%;
-        justify-content: center;
-        
-    }
-    .bmi{
-        width: 90%;
-        margin: 0 auto;
-        font-size: 2.7rem;
-        margin-left: 30px;
-    }
-    .we{
         width: 80%;
         margin: 0 auto;
-        margin-left: 30px;
-        margin-top: 20px;
     }
+    .bmi{
+        width: 80%;
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+   .we{
+        width: 80%;
+        margin: 0 auto;
+   }
+   .table-section{
+        width: 100%;
+        margin: 0 auto;
+   }
     .table-section1{
         width: 100%;
-        margin: 0 auto;
         flex-direction: column;
+    }   
+    .left-side1{
+       width: 100%; 
     }
-    .left-side{
-        width: 100%;
+    .table-title1{
+        width: 200px;
         margin: 0 auto;
-        margin-left: 20px;
+        font-size: 1rem;
+        
     }
-    .right-side{
-        width: 100%;
-        margin: 0 auto;
-        margin-top: 30px;
+   
+    .table{
+       width: 300px;
+    }
+    
+     .right-side3{
+        max-width: 100%;
+        margin-top: 30px; 
+    } 
+    .input-title{
+        max-width: 300px;
+        font-size: 1rem;
+    }
+    .input-desc{
+        max-width: 500px;
     }
     .input1 input{
-        width: 140px;
+        max-width: 43%;
         padding: 10px 12px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
@@ -209,7 +232,7 @@
         margin-right: 10px;
     } 
     .input2 input{
-        width: 140px;
+        max-width: 43%;
         padding: 10px 12px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
@@ -218,69 +241,25 @@
         margin-right: 10px;
     } 
     .input3 input{
-        width: 295px;
+        width: 90%;
         padding: 10px 12px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
         border-style: none;
         margin-top: 10px;
-    } 
-    /* img section responsive */
-    .meet-section{
-        width: 100%;
-        margin: 0 auto;
-        
+    }   
+    .btn-primary1 button{
+        width: 80%;
     }
-    .meet1{
-        max-width: 70%;
-        margin: 0 auto;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    .img-section{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-    }
-    .img img{
-        position: relative;
-        border: 15px solid grey;
-        border-radius: 12px;
-        
-    }
-    .img-title{
-        position: relative;
-        font-size: 1.5rem;
-        color: white;
-        margin-left: -110px;
-        margin-bottom: -10px;
-    }
-    .trainer{
-        position: relative;
-        margin-left: -180px;
-        font-size: 1.5rem;
-       
-    }
-
-    /* img-section style start here */
-    .img-section{
-        margin-bottom: 100px;
-    }
-    .section{
-        margin-right: -100px;
-    }
+   
+    
+    /*meet section responsive start here */
     img-section{
         width: 100%;
-        margin: 0 auto;
-        text-align: center;
-        margin-left: 50px;
         display: grid;
         grid-template-columns: repeat(1, 6fr);
     }
-    .title1{
-        text-align: center;
-    }
+    
     /* footer section responsive */
     .footer1{
         width: 100%;
@@ -311,5 +290,5 @@
         width: 90%;
         justify-content: center;
         
-    }
+    } */
 }
