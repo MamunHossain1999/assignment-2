@@ -127,6 +127,7 @@
     .card2 .image{
         max-width: 100%;
         height: 300px;
+        margin: 0 auto;
     }
     /* training section style start here */
     .traning-section{
