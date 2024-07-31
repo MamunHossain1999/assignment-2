@@ -14,7 +14,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 2px solid red;
+        
     }
     .header{
         width: 100%; 
@@ -269,7 +269,7 @@
         max-width: 500px;
     }
     .input1 input{
-        max-width: 43%;
+        max-width: 46%;
         padding: 10px 12px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
@@ -277,7 +277,7 @@
         margin-right: 10px;
     } 
     .input2 input{
-        max-width: 43%;
+        max-width: 45%;
         padding: 10px 12px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
@@ -307,11 +307,84 @@
     .img-section-heading{
         width: 100%;
         margin: 0 auto;
+        
     }
     .img-header{
         max-width: 90%;
         margin: 0 auto;
         font-size:  1.5rem;
+    }
+    .section{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
+    }
+    .section1{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
+    }
+    .section2{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
+    }
+    .section3{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
+    }
+    .section4{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
+    }
+    .section5{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
     }
     /* footer section responsive */
     .footer1{
@@ -343,5 +416,5 @@
         width: 90%;
         justify-content: center;
         
-    } */
+    } 
 }
