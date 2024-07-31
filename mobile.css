@@ -7,6 +7,15 @@
         padding: 0;
         box-sizing: border-box;
     }
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid red;
+    }
     .header{
         width: 100%; 
         margin: 0 auto;
@@ -21,19 +30,27 @@
         width: 100%;
         margin: 0 auto;
         flex-direction: column;
+        
+    }
+    .left-get{
+        max-width: 100%;
+        margin: 0 auto;
     }
     .title{
+        max-width: 100%;
+        margin: 0 auto;
         font-size: 3rem;
+        
     }
     .span1{
         font-weight: 400;
         font-size: 5rem;
     }
     .left-get{
-        width: 100%;
+        max-width: 100%;
     }
     .btn-primary{
-        width: 100%;
+       max-width: 100%;
         padding-top: 20px;
         margin: 0 auto;
         display: flex;
@@ -50,28 +67,46 @@
         font-size: 0.7rem;
     }
     .right-img{
-        width: 100%;
+        max-width: 95%;
         margin: 0 auto;
         margin-top: 30px;
     }
     .right-img{
         position: relative;
     }
+    .right-img img{
+        max-width: 100%;
+        height: 400px;
+    }
     .btn3{
         position: absolute;
-        right: -40px;
-        top: 140px
+        right: -73px;
+        top: 110px
     }
     .bitto{
         position: absolute;
-        left: 0;
-        bottom: 70px;
+        left: -50px;
+        bottom: 60px;
     }
+    .bitto .cirsule{
+        display: none;
+    }
+    .bitto .cirsule1{
+        width: 40px;
+        height: 40px;
+        background-image: url(./images/Screenshot\ .png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+
+    }
+
     .btn3{
-        width: 150px;
+        width: 190px;
     }
     .bitto{
-        width: 170px;
+        width: 190px;
     }
 
     /* card desgin responsiv */
@@ -131,7 +166,6 @@
     } 
     .image{
         width: 300px;
-        justify-content: center;
         margin-top: 30px;
     }  
         
