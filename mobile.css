@@ -268,31 +268,21 @@
     .input-desc{
         max-width: 500px;
     }
+    .form{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .input1{
+        width:100% ;
+        margin: 0 auto;
+        align-items: center;
+      
+    }
     .input1 input{
-        max-width: 45%;
-        padding: 10px 12px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.1);
-        border-style: none;
-        margin-right: 10px;
+      width: 100%; 
+      margin: 0 auto;   
     } 
-    .input2 input{
-        max-width: 45%;
-        padding: 10px 12px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.1);
-        border-style: none;
-        margin-top: 10px;
-        margin-right: 10px;
-    } 
-    .input3 input{
-        max-width: 90%;
-        padding: 10px 12px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.1);
-        border-style: none;
-        margin-top: 10px;
-    }   
+
     .btn-primary1 button{
         width: 80%;
     }

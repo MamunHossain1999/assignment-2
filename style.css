@@ -644,43 +644,31 @@ button:hover{
     }   
     .form{
         max-width: 100%;
+        margin: 0 auto;
        
     }
-    .input1 input{
-        width: 47%;
-        padding: 10px 12px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.1);
-        border-style: none;
-        margin-right: 10px;
-    } 
-    .input2 input{
-        width: 47%;
-        padding: 10px 12px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.1);
-        border-style: none;
-        margin-top: 10px;
-        margin-right: 10px;
+    .input1{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
-    .input2 #sex{
-        width: 47%;
+    .input1 input, select{
         padding: 10px 12px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
         border-style: none;
         color: #757562;
-    }  
-    
-    .input3 #factor{
-        width: 96.5%;
-        padding: 10px 12px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.1);
-        border-style: none;
+    }
+    .factor{
+        max-width: 100%;
         margin-top: 10px;
-        color: #757562;
-    } 
+
+    }
+    #factor{
+        width: 100%;
+    }
     .btn-primary1 button{
         margin-top: 16px;
         border-radius: 42px;
